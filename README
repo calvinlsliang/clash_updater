@@ -1,0 +1,10 @@
+A simple project that my Philip Lorenzo, asked if I could work on.
+
+It would basically read two files and append the grid line locations from the first file to a particular location on the second 
+file, and create a new third file with both changes. This was written in C++.
+
+I wanted to create a GUI on top of it, and finalized my decision on using wxWidgets (http://www.wxwidgets.org/) due to a 
+recommendation from Edward Wu. wxWidgets is a C++ library that allows developers to create cross-platform applications. I am 
+using wxDev-C++, which is Dev-C++ with an extension to work alongside wxWidgets (http://wxdsgn.sourceforge.net/).
+
+I am currently working on the GUI, so any suggestions or criticism would be appreciated.

@@ -1,0 +1,40 @@
+# Project: Project1
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 7.3 on 15/05/11 23:58
+
+WXLIBNAME = wxmsw28
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = "windres.exe"
+OBJ       = Objects/MingW/clash_update_devApp.o Objects/MingW/clash_update_devFrm.o Objects/MingW/clash_update_dev_private.res
+LINKOBJ   = "Objects/MingW/clash_update_devApp.o" "Objects/MingW/clash_update_devFrm.o" Objects/MingW/clash_update_dev_private.res
+LIBS      = -L"C:/Program Files (x86)/Dev-Cpp/Lib" -mwindows -l$(WXLIBNAME) -l$(WXLIBNAME)_gl -lwxtiff -lwxjpeg -lwxpng -lwxzlib -lwxregex -lwxexpat -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lwinspool -lwinmm -lshell32 -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lwsock32 -lodbc32 -lopengl32  
+INCS      = -I"C:/Program Files (x86)/Dev-Cpp/Include"
+CXXINCS   = -I"C:/Program Files (x86)/Dev-Cpp/lib/gcc/mingw32/3.4.5/include" -I"C:/Program Files (x86)/Dev-Cpp/include/c++/3.4.5/backward" -I"C:/Program Files (x86)/Dev-Cpp/include/c++/3.4.5/mingw32" -I"C:/Program Files (x86)/Dev-Cpp/include/c++/3.4.5" -I"C:/Program Files (x86)/Dev-Cpp/include" -I"C:/Program Files (x86)/Dev-Cpp/" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/msw" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/generic" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/html" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/protocol" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/xml" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx/xrc" -I"C:/Program Files (x86)/Dev-Cpp/include/common/wx" -I"C:/Program Files (x86)/Dev-Cpp/include/common"
+RCINCS    = --include-dir "C:/PROGRA~2/Dev-Cpp/include/common"
+BIN       = Output/MingW/clash_update_dev.exe
+DEFINES   = -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__
+CXXFLAGS  = $(CXXINCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+CFLAGS    = $(INCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(LINKOBJ) "$(BIN)"
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
+
+Objects/MingW/clash_update_devApp.o: $(GLOBALDEPS) clash_update_devApp.cpp clash_update_devApp.h clash_update_devFrm.h
+	$(CPP) -c clash_update_devApp.cpp -o Objects/MingW/clash_update_devApp.o $(CXXFLAGS)
+
+Objects/MingW/clash_update_devFrm.o: $(GLOBALDEPS) clash_update_devFrm.cpp clash_update_devFrm.h Images/clash_update_devFrm_WxToolButton2_XPM.xpm Images/clash_update_devFrm_WxToolButton1_XPM.xpm
+	$(CPP) -c clash_update_devFrm.cpp -o Objects/MingW/clash_update_devFrm.o $(CXXFLAGS)
+
+Objects/MingW/clash_update_dev_private.res: Objects/MingW/clash_update_dev_private.rc clash_update_devApp.rc 
+	$(WINDRES) --input-format=rc -o Objects/MingW/clash_update_dev_private.res $(RCINCS) Objects/MingW/CLASH_~1.RC -O coff

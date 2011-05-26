@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-8.0.xsd" units="in">
+  <viewpoints>
+    <viewfolder name="Plumbing and King Studs">
+      <comments>
+        <comment id="0" status="new">
+          <user>PLorenzo</user>
+          <body>Test Name: Plumbing and King Studs
+Test Status: Done
+Clash Type: Hard
+Tolerance: 0.00m
+Total Clashes: 798
+New: 0
+Active: 798
+Reviewed: 0
+Approved: 0
+Resolved: 0
+</body>
+          <createddate>
+            <date year="2011" month="5" day="12" hour="14" minute="26" second="23"/>
+          </createddate>
+        </comment>
+      </comments>
+      <view name="Clash13990">
+        <viewpoint tool="none" render="preview" lighting="headlight" focal="78.1478978240">
+          <camera projection="persp" near="34.2817226748" far="4727.1012532813" aspect="1.4600870827" height="0.7853980000">
+            <position>
+              <pos3f x="4890.7829999873" y="7285.4065304048" z="1438.3788744069"/>
+            </position>
+            <rotation>
+              <quaternion a="0.0000000000" b="0.0000000000" c="0.0000000000" d="1.0000000000"/>
+            </rotation>
+          </camera>
+          <viewer radius="9.8425196850" height="66.9291338583" actual_height="66.9291338583" eye_height="5.9055118110" avatar="human" camera_mode="first" first_to_third_angle="0.2617993878" first_to_third_distance="157.4803149606" first_to_third_param="1.0000000000" first_to_third_correction="1" collision_detection="0" auto_crouch="0" gravity="0" gravity_value="385.8267716535" terminal_velocity="1968.5039370079"/>
+        </viewpoint>
+        <clipplaneset linked="0" current="0" mode="planes" enabled="0">
+          <range>
+            <box3f>
+              <min>
+                <pos3f x="1.0000000000" y="1.0000000000" z="1.0000000000"/>
+              </min>
+              <max>
+                <pos3f x="0.0000000000" y="0.0000000000" z="0.0000000000"/>
+              </max>
+            </box3f>
+          </range>
+          <clipplanes>
+            <clipplane state="default" distance="0.0000000000" alignment="top">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="bottom">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="front">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="back">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="left">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="right">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+          </clipplanes>
+          <box>
+            <box3f>
+              <min>
+                <pos3f x="1.0000000000" y="1.0000000000" z="1.0000000000"/>
+              </min>
+              <max>
+                <pos3f x="0.0000000000" y="0.0000000000" z="0.0000000000"/>
+              </max>
+            </box3f>
+          </box>
+          <box-rotation>
+            <rotation>
+              <quaternion a="0.0000000000" b="0.0000000000" c="0.0000000000" d="1.0000000000"/>
+            </rotation>
+          </box-rotation>
+        </clipplaneset>
+        <comments>
+          <comment id="0" status="new">
+            <user>PLorenzo</user>
+            <body>Clash Name: Clash13990
+Clash Status: Active
+Distance: -0.10m
+Description: Hard
+Clash Point: 124.23m 185.05m 34.55m
+Found: 12:56:07 PM 3/23/2011
+Approved By: 
+
+Item 1:
+Item ID
+Entity Handle: 4302E
+Layer: _PL_Vent-Pipework
+Quick Properties:
+Item Name: _PL_Vent-Pipework
+Item Type: No-Hub Pipe [ 2 ]
+
+Item 2:
+Item ID
+Entity Handle: 42F2
+Layer: A-Wall-Stud
+Quick Properties:
+Item Name: A-Wall-Stud
+Item Type: Wall
+</body>
+            <createddate>
+              <date year="2011" month="5" day="12" hour="14" minute="26" second="23"/>
+            </createddate>
+          </comment>
+        </comments>
+      </view>
+      <view name="Clash14020">
+        <viewpoint tool="none" render="preview" lighting="headlight" focal="75.8993371570">
+          <camera projection="persp" near="1.0000000000" far="10.0000000000" aspect="1.0000000000" height="0.7853980000">
+            <position>
+              <pos3f x="4890.7499999950" y="7286.0090304263" z="1438.3788744069"/>
+            </position>
+            <rotation>
+              <quaternion a="0.0000000000" b="0.0000000000" c="0.0000000000" d="1.0000000000"/>
+            </rotation>
+          </camera>
+        </viewpoint>
+        <clipplaneset linked="0" current="0" mode="planes" enabled="0">
+          <range>
+            <box3f>
+              <min>
+                <pos3f x="1.0000000000" y="1.0000000000" z="1.0000000000"/>
+              </min>
+              <max>
+                <pos3f x="0.0000000000" y="0.0000000000" z="0.0000000000"/>
+              </max>
+            </box3f>
+          </range>
+          <clipplanes>
+            <clipplane state="default" distance="0.0000000000" alignment="top">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="bottom">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="front">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="back">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="left">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+            <clipplane state="default" distance="0.0000000000" alignment="right">
+              <plane distance="0.0000000000">
+                <vec3f x="0.0000000000" y="1.0000000000" z="0.0000000000"/>
+              </plane>
+            </clipplane>
+          </clipplanes>
+          <box>
+            <box3f>
+              <min>
+                <pos3f x="1.0000000000" y="1.0000000000" z="1.0000000000"/>
+              </min>
+              <max>
+                <pos3f x="0.0000000000" y="0.0000000000" z="0.0000000000"/>
+              </max>
+            </box3f>
+          </box>
+          <box-rotation>
+            <rotation>
+              <quaternion a="0.0000000000" b="0.0000000000" c="0.0000000000" d="1.0000000000"/>
+            </rotation>
+          </box-rotation>
+        </clipplaneset>
+        <comments>
+          <comment id="0" status="new">
