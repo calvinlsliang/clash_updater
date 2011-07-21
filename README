@@ -1,4 +1,4 @@
-A simple project that my Philip Lorenzo, asked if I could work on.
+A simple project that my friend, Philip Lorenzo, asked if I could work on.
 
 It would basically read two files and append the grid line locations from the first file to a particular location on the second 
 file, and create a new third file with both changes. This was written in C++.
